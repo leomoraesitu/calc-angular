@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./calc.component.css']
 })
 export class CalcComponent {
-
+  num1: number=0;
+  num2: number=0;
+  soma: number=0;
 }
+
