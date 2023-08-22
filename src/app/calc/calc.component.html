@@ -1,6 +1,12 @@
 <form>
-    <input type="text" [(ngModel)]="num1">
-    <input type="text" [(ngModel)]="num2">
-    <button>Somar</button>
-    <div></div>
+    <input type="number" [(ngModel)]="num1" name="num1">
+    <input type="number" [(ngModel)]="num2" name="num2">
+    {{resultado}}
+    <br>
+    <br>
+    <button (click)="somar()">Somar</button>
+    <button (click)="subtrair()">Subtrair</button>
+    <button (click)="multiplicar()">Multiplicar</button>
+    <button (click)="dividir()">Dividir</button>
+   
 </form>
